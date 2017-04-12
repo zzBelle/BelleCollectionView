@@ -16,7 +16,6 @@
 		97C7B9671E9DCB0B00D8C37C /* BelleCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C7B9661E9DCB0B00D8C37C /* BelleCollectionViewTests.m */; };
 		97C7B9721E9DCB0B00D8C37C /* BelleCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C7B9711E9DCB0B00D8C37C /* BelleCollectionViewUITests.m */; };
 		97C7B9811E9DD42700D8C37C /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C7B9801E9DD42700D8C37C /* CollectionViewCell.m */; };
-		97C7B9841E9E0AD300D8C37C /* WaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C7B9831E9E0AD300D8C37C /* WaterfallLayout.m */; };
 		97C7B9871E9E0EF200D8C37C /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C7B9861E9E0EF200D8C37C /* HeaderCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +55,6 @@
 		97C7B9731E9DCB0B00D8C37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C7B97F1E9DD42700D8C37C /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		97C7B9801E9DD42700D8C37C /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
-		97C7B9821E9E0AD300D8C37C /* WaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallLayout.h; sourceTree = "<group>"; };
-		97C7B9831E9E0AD300D8C37C /* WaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallLayout.m; sourceTree = "<group>"; };
 		97C7B9851E9E0EF200D8C37C /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
 		97C7B9861E9E0EF200D8C37C /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,8 +115,6 @@
 				97C7B9801E9DD42700D8C37C /* CollectionViewCell.m */,
 				97C7B9851E9E0EF200D8C37C /* HeaderCollectionReusableView.h */,
 				97C7B9861E9E0EF200D8C37C /* HeaderCollectionReusableView.m */,
-				97C7B9821E9E0AD300D8C37C /* WaterfallLayout.h */,
-				97C7B9831E9E0AD300D8C37C /* WaterfallLayout.m */,
 				97C7B9551E9DCB0B00D8C37C /* Main.storyboard */,
 				97C7B9581E9DCB0B00D8C37C /* Assets.xcassets */,
 				97C7B95A1E9DCB0B00D8C37C /* LaunchScreen.storyboard */,
@@ -292,7 +287,6 @@
 				97C7B9541E9DCB0B00D8C37C /* ViewController.m in Sources */,
 				97C7B9511E9DCB0B00D8C37C /* AppDelegate.m in Sources */,
 				97C7B9811E9DD42700D8C37C /* CollectionViewCell.m in Sources */,
-				97C7B9841E9E0AD300D8C37C /* WaterfallLayout.m in Sources */,
 				97C7B94E1E9DCB0B00D8C37C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +517,7 @@
 				97C7B9781E9DCB0B00D8C37C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97C7B9791E9DCB0B00D8C37C /* Build configuration list for PBXNativeTarget "BelleCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +526,7 @@
 				97C7B97B1E9DCB0B00D8C37C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97C7B97C1E9DCB0B00D8C37C /* Build configuration list for PBXNativeTarget "BelleCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +535,7 @@
 				97C7B97E1E9DCB0B00D8C37C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
